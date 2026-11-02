@@ -1,6 +1,14 @@
-# Inventory API
+# HOME TEST BE INTERN
 
 RESTful API Sistem Manajemen Inventaris Barang (Node.js, Express 5, MongoDB Atlas, JWT).
+
+## Setup Database (MongoDB Atlas)
+1. Membuat akun dan login ke MongoDB Atlas
+2. Membuat Cluster terlebih dahulu, lalu ada button "Connect"
+3. Ada beberapa pilihan, namun pada project ini pilih "MongoDB for VS CODE"
+4. Terdapat link database, lalu copy saja. Contoh : mongodb+srv://<user>:<db_password>@cluster0.nqowovq.mongodb.net/<nama_db>
+5. Pada link tersebut, terdapat user dan db_password diisi sesuai dengan db dan password yang dibuat
+6. Ketika sudah mendapatkan akses MongoDB Atlas, jalankan di terminal cp .env.example .env lalu sesuaikan dengan akses yang didapat
 
 ## Menjalankan
 ```bash
