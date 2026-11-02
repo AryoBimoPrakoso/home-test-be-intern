@@ -50,4 +50,4 @@ curl "localhost:3000/items?search=kabel&page=1&limit=10" -H "Authorization: Bear
   Jawab : Pada kode saat ini, update stok lewat PUT menimpa nilai, sehingga rawan lost update kalau ada dua request bersamaan. Mungkin menurut saya untuk mencegah stok menjadi -1, menggunakan filter stock >= quantity. Pada mongodb menjadi atomisitas di level dokumen, sehingga request kedua gagal dan mendapat 409. 
 
 ## Dokumentasi Postman
-[text](https://documenter.getpostman.com/view/27379651/2sBYHXPy6X)
+https://documenter.getpostman.com/view/27379651/2sBYHXPy6X
